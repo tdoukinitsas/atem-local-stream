@@ -1,0 +1,21 @@
+{
+  "name": "atem-local-stream",
+  "version": "1.0.0",
+  "description": "Allows you to locally relay an rtmp stream. Tuned specifically for Blackmagic Atem devices.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "atem",
+    "live",
+    "stream",
+    "hdmi",
+    "output"
+  ],
+  "author": "Thomas Doukinitsas",
+  "license": "ISC",
+  "dependencies": {
+    "node-media-server": "^2.6.2"
+  }
+}

@@ -1,0 +1,5 @@
+<LiveStream serviceName="Local stream" url="rtmp://<SERVERIP>/live" key="ATEM" lowLatency="True">
+    <Credentials username="" password=""/>
+    <bitrate low="45000000" high="70000000"/>
+    <audioBitrate low="128000" high="128000"/>
+</LiveStream>
