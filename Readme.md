@@ -2,6 +2,15 @@
 
 A quick and hacky way to get a clean output out of the atem mini pro, whilst also using the multiviewer and recording capabilities that are built in.
 
+## Prerequisites
+
+You need node.js installed. Then once you've cloned / downloaded the repo, command line in to it and type
+
+
+```
+npm install
+```
+
 ## Step 1
 
 Edit the sampleatemconfig.xml, and replace `<SERVERIP>` with the IP address of the PC/Mac running the server.
