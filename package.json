@@ -16,6 +16,7 @@
   "author": "Thomas Doukinitsas",
   "license": "public-domain",
   "dependencies": {
-    "node-media-server": "^2.6.2"
+    "node-media-server": "^2.6.2",
+    "pro-flv.js": "^2.0.2"
   }
 }

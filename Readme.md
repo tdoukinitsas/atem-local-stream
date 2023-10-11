@@ -1,6 +1,7 @@
 # Local RTMP server relay, tuned for Blackmagic ATEM Devices.
 
 A quick and hacky way to get a clean output out of the atem mini pro, whilst also using the multiviewer and recording capabilities that are built in.
+Kind of does what the ATEM Streaming Bridge would do...
 
 ## Prerequisites
 
@@ -37,4 +38,10 @@ Access the stream using VLC or a similar software at:
 
 ```
 rtmp://localhost/live/ATEM
+```
+
+or by using a web browser at
+
+```
+localhost:5050
 ```

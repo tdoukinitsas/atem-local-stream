@@ -17,3 +17,19 @@ logType: 3,
 
 var nms = new NodeMediaServer(config)
 nms.run();
+
+var express = require('express');
+var app = express();
+const port = process.env.PORT || 5050;
+
+app.use('/', express.static(__dirname + '/'));
+
+app.get('/', function (req, res) {
+  res.sendFile( __dirname + "/" + "index.html" );
+})
+
+var server = app.listen(port, function () {
+   var host = server.address().address
+   
+   console.log("listening at http://%s:%s", host, port)
+})
